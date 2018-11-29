@@ -1,0 +1,1862 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-family: Ubuntu;
+	font-size: 70px;
+	font-weight: bold;
+	letter-spacing: 2.8px;
+	line-height: 80px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+h3 {
+	font-family: Ubuntu;
+	font-size: 60px;
+	font-weight: bold;
+	letter-spacing: 2.4px;
+	line-height: 69px;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+/*Home */
+#home {
+	padding-top: 50px;
+	width: 100%;
+	background: url(../img/bg1.png)no-repeat center center;
+	background-size: cover;
+	height: 822px;
+}
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 76px;
+}
+.logo {
+	display: flex;
+	align-items: center;
+}
+.logo img {
+	margin-right: 17px;
+}
+.line {
+	box-sizing: border-box;
+	height: 27px;
+	width: 1px;
+	border: 1px solid #FFFFFF;
+	opacity: 0.5;
+	margin-right: 14px;
+}
+
+.logo span{
+	color: #FFFFFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	letter-spacing: 0.48px;
+	line-height: 16px;
+}
+.tel {
+	color: #FFFFFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	letter-spacing: 0.6px;
+	line-height: 16px;
+}
+.header-right {
+	display: flex;
+	align-items: center;
+}
+.hire {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 155px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+    margin-left: 33px;
+    position: relative;
+    background: #125E4F;
+    color: #ffffff;
+    border-radius: 40px;
+    -webkit-transition: -webkit-box-shadow 0.2s;
+    transition: -webkit-box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
+}
+.hire img {
+    margin-left: 10px;
+}
+
+#home p {
+	color: #FFFFFF;
+	font-family: Ubuntu;
+	font-size: 30px;
+	letter-spacing: 1.2px;
+	line-height: 35px;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.services {
+	display: flex;
+	width: 700px;
+	margin: 0 auto;
+	margin-bottom: 70px;
+}
+
+.services-item {
+	display: flex;
+	flex-direction: column;
+	height: 130px;
+	width: 155px;
+	justify-content: center;
+	text-align: center;
+	margin-right: 63px;
+}
+
+
+.services-item:hover {
+	background: url(../img/hoversvg.svg) no-repeat center center;
+	background-size: cover;
+}
+
+.services-item:last-child {
+	margin-right: 0;
+}
+
+.services-item img {
+	height: 46px;
+	width: 47px;
+	margin: 0 auto;
+}
+
+.services-item span {
+	margin-top: 22px;
+	display: block;
+	color: #FFFFFF;
+	font-family: Ubuntu;
+	font-size: 18px;
+	letter-spacing: 0.72px;
+	line-height: 21px;
+}
+
+.getFree {
+	text-align: center;
+}
+
+.getFree a {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 350px;
+    border-radius: 40px;
+    background: linear-gradient(235.93deg, #F9B400 0%, #FFE807 100%);
+    color: #313131;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 29px;
+    margin: 0 auto;
+    margin-bottom: 26px;
+}
+
+.getFree a:hover {
+	box-shadow: 0 2px 19px 0 rgba(255,255,255,0.4);
+}
+.getFree span {
+	color: #FFFFFF;
+	font-family: Ubuntu;
+	font-size: 15px;
+	letter-spacing: 0.6px;
+	line-height: 17px;
+	text-align: center;
+}
+
+/*Expertise*/
+
+#expertise {
+	padding-top: 115px;
+	width: 100%;
+	height: 750px;
+		background: #FBFBFB;
+}
+
+#expertise h3 {
+	color: #313131;
+	text-align: center;
+	margin-bottom: 65px;
+}
+
+
+.expertiseBlock {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 48px;
+}
+
+.amountBlock {
+	width: 574px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.amount {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 182px;
+	width: 250px;
+	border-radius: 19px;
+	background-color: #FFFFFF;
+	box-shadow: 0 2px 14px 0 rgba(0,0,0,0.11);
+	margin-right: 37px;
+	margin-bottom: 26px;
+}
+
+.amount span {
+	color: #313131;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 57px;
+	margin-bottom: 26px;
+}
+
+
+.amount p {
+	color: #313131;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	letter-spacing: 0.6px;
+	line-height: 17px;
+}
+
+
+.img {
+	height: 390px;
+	width: 535px;
+	background: url(../img/experties.png)center center;
+	background-size: cover;
+}
+
+.drop-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80px;
+	width: 350px;
+	border-radius: 40px;
+	background: linear-gradient(235.93deg, #F9B400 0%, #FFE807 100%);
+	box-shadow: 0 2px 19px 0 rgba(0,0,0,0.21);
+	margin-left: auto;
+	margin-right: 68px;
+	color: #313131;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 29px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Contact*/
+
+#contact {
+	padding-top: 68px;
+	width: 100%;
+	height: 700px;
+	background: #fff;
+}
+
+#contact h3 {
+	color: #313131;
+	margin-bottom: 30px;
+}
+#contact p {
+	color: #313131;
+	font-family: Ubuntu;
+	font-size: 30px;
+	letter-spacing: 1.2px;
+	line-height: 35px;
+	margin-bottom: 95px;
+}
+
+.contact-form{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.contact-form form {
+	height: 408px;
+	width: 535px;
+	border-radius: 19px;
+	background-color: #FFFFFF;
+	padding: 60px 56px 48px 56px;
+	box-shadow: 0 2px 20px 0 rgba(0,0,0,0.5);
+	position: relative;
+}
+
+
+.contact-form  form input[type=email],
+.contact-form   form input[type=text]{
+	width: 100%;
+	border:none;
+	border-bottom: 3px solid #4A998C;
+	opacity: 0.25;
+	outline: none;
+	padding-bottom: 10px;
+	margin-bottom: 69px;
+	color: #313131;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	letter-spacing: 0.6px;
+	line-height: 17px;
+}
+
+.contact-form form input[type=tel]{
+	width: 100%;
+	border:none;
+	border-bottom: 3px solid #4A998C;
+	opacity: 0.25;
+	outline: none;
+	padding-bottom: 10px;
+	margin-bottom: 36px;
+	color: #313131;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	letter-spacing: 0.6px;
+	line-height: 17px;
+}
+
+
+.contact-form form input:focus {
+	border-bottom: 3px solid #4A998C;
+	opacity: 1;
+}
+.contact-form form span {
+	display: block;
+	text-align: center;
+	color: #4A998C;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 10px;
+	letter-spacing: 0.4px;
+	line-height: 11px;
+}
+
+.contact-form  form button {
+    height: 80px;
+    width: 350px;
+    outline: none;
+    border: none;
+    position: absolute;
+    bottom: -35px;
+    left: 93px;
+    border-radius: 40px;
+    background: linear-gradient(235.93deg, #F9B400 0%, #FFE807 100%);
+    box-shadow: 0 2px 19px 0 rgba(0,0,0,0.21);
+    color: #313131;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 29px;
+}
+
+.contact-form {
+
+}
+
+.contact-form .ceo {
+	margin-top: -86px;
+	left: -50px;
+    position: relative;
+}
+
+.contact-form  .ceo .ceo-text {
+    position: absolute;
+    bottom: -25px;
+    right: 10px;
+}
+.contact-form  .ceo .ceo-text h6 {
+	color: #FFFFFF;
+	font-family: Ubuntu;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 29px;
+	margin-bottom: 14px;
+}
+
+.contact-form  .ceo .ceo-text  span {
+	color: #FFFFFF;
+	font-family: Ubuntu;
+	font-size: 15px;
+	letter-spacing: 0.6px;
+	line-height: 17px;
+}
+
+
+/* UI design  */
+
+#ui {
+	padding-top: 140px;
+	width: 100%;
+	height: 840px;
+	background: url(../img/bg3.png)no-repeat;
+	background-size: cover;
+}
+
+.ui-block {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+.ui-text {
+	width: 423px;
+}
+.ui-text h3 {
+	color: #FFFFFF;
+	margin-bottom: 39px;
+}
+.ui-text  p {
+	color: #FFFFFF;
+	font-family: Ubuntu;
+	font-size: 18px;
+	letter-spacing: 0.72px;
+	line-height: 27px;
+	margin-bottom: 109px;
+}
+.ui-text a {
+	height: 93px;
+	width: 396px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 40px;
+	background: linear-gradient(235.93deg, #F9B400 0%, #FFE807 100%);
+	color: #313131;	font-family: Ubuntu;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 29px;
+}
+.ui-text a:hover {
+	box-shadow: 0 2px 19px 0 rgba(255,255,255,0.4);
+}
+
+
+.features {
+	height: 120px;
+	width: 475px;
+	display: flex;
+	align-items: center;
+}
+.features:hover {
+
+}
+
+.features  img {
+	margin-right: 28px;
+	height: 82px;
+	width: 76px;
+}
+.features span {
+	color: #FFFFFF;
+	font-family: Ubuntu;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 31px;
+}
+
+
+/* UX design  */
+
+#ux {
+	padding-top: 140px;
+	width: 100%;
+	height: 700px;
+	background: #fff;
+}
+.ux-block {
+	width: 1114px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.ux-text {
+	width: 423px;
+}
+
+
+.ux-text h3 {
+	color: #313131;
+	font-size:50px;
+	margin-bottom: 74px;
+}
+.ux-text p {
+	color: #313131;
+	font-family: Ubuntu;
+	font-size: 18px;
+	letter-spacing: 0.72px;
+	line-height: 27px;
+	margin-bottom: 109px;
+}
+
+
+.ux-text a {
+	height: 93px;
+	width: 396px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 40px;
+	background: linear-gradient(235.93deg, #F9B400 0%, #FFE807 100%);
+	color: #313131;	font-family: Ubuntu;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 29px;
+}
+
+.ux-text a:hover {
+	box-shadow: 0 2px 19px 0 rgba(0,0,0,0.15);
+}
+
+.ux-features {
+	height: 120px;
+	width: 475px;
+	display: flex;
+	align-items: center;
+	padding-left: 31px;
+}
+.ux-features:hover {
+	box-shadow: 0 2px 29px 0 rgba(0,0,0,0.12);
+	border-radius: 14px;
+}
+.ux-features img {
+	height: 73px;
+	width: 76px;
+	margin-right: 24px;
+}
+
+.ux-features span {
+	color: #313131;
+	font-family: Ubuntu;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 31px;
+}
+
+/* Markup  */
+
+#markup  {
+	padding-top: 140px;
+	height: 840px;
+	width: 100%;
+	background: url(../img/bg3.png)no-repeat;
+	background-size: cover;
+}
+
+
+
+/* Development */
+
+ #development {
+ 	padding-top: 63px;
+	width: 100%;
+	height: 750px;
+	background: #fff;
+ }
+
+  #development  h3 {
+	color: #313131;
+	text-align: center;
+	margin-bottom: 58px;
+  }
+
+  .technologies {
+  	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: space-between;
+  }
+
+.t-item {
+	height: 120px;
+	width: 535px;
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+	box-sizing: border-box;
+	padding-left: 46px;
+}
+.t-item:hover {
+	box-shadow: 0 2px 29px 0 rgba(0,0,0,0.12);
+	border-radius: 14px;
+}
+
+
+.t-item  img {
+	margin-right: 37px;
+}
+.t-item span {
+	color: #313131;
+	font-family: Ubuntu;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 31px;
+}
+
+
+/* Drop */
+/*DROP*/
+
+#drop {
+	padding-top: 74px;
+	width: 100%;
+	height: 750px;
+	background: url(../img/bg3.png) no-repeat center center;
+	background-size: cover;
+}
+
+#drop h3 {
+	color: #fff;
+	margin-bottom: 31px;
+}
+
+#drop  p {
+	color: #FFFFFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	letter-spacing: 1.2px;
+	line-height: 35px;
+	margin-bottom: 41px;
+}
+
+.form  {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.form form,
+.questions-form form {
+	height: 408px;
+	width: 535px;
+	border: 1px solid #979797;
+	border-radius: 19px;
+	background-color: #FFFFFF;
+	padding: 60px 56px 48px 56px;
+	position: relative;
+}
+
+.form form input[type=text],
+.form form input[type=email],
+.questions-form  form input[type=email],
+.questions-form  form input[type=text] {
+	width: 100%;
+	border:none;
+	border-bottom: 3px solid #4A998C;
+	opacity: 0.25;
+	outline: none;
+	padding-bottom: 10px;
+	margin-bottom: 69px;
+	color: #313131;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	letter-spacing: 0.6px;
+	line-height: 17px;
+}
+
+.form form input[type=tel],
+.questions-form form input[type=tel]{
+	width: 100%;
+	border:none;
+	border-bottom: 3px solid #4A998C;
+	opacity: 0.25;
+	outline: none;
+	padding-bottom: 10px;
+	margin-bottom: 36px;
+	color: #313131;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	letter-spacing: 0.6px;
+	line-height: 17px;
+}
+
+
+.form form input:focus,
+.questions-form form input:focus {
+	border-bottom: 3px solid #4A998C;
+	opacity: 1;
+}
+
+
+
+.form form input:last-child,
+.questions-form form input:last-child {
+	margin: 0;
+}
+
+.form form span,
+.questions-form form span {
+	display: block;
+	text-align: center;
+	color: #4A998C;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 10px;
+	letter-spacing: 0.4px;
+	line-height: 11px;
+}
+.form form button,
+.questions-form  form button  {
+	height: 80px;
+	width: 350px;
+	outline: none;
+	border: none;
+	position: absolute;
+	bottom: -35px;
+	left: 93px;
+	border-radius: 40px;
+	background: linear-gradient(235.93deg, #F9B400 0%, #FFE807 100%);
+	box-shadow: 0 2px 19px 0 rgba(0,0,0,0.21);
+	color: #313131;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 29px;
+}
+
+.willGet {
+	height: 408px;
+	width: 440px;
+	border: 5px solid #FFFFFF;
+	border-radius: 19px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.willGet h5 {
+	color: #FFFFFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	letter-spacing: 2.4px;
+	line-height: 69px;
+	margin-bottom: 30px;
+}
+
+.willGet li {
+	color: #FFE807;
+	margin-bottom: 25px;
+	padding-left: 22px;
+
+}
+
+
+.arr {
+	display: flex;
+}
+
+.willGet li span {
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	letter-spacing: 0.8px;
+	line-height: 24px;
+}
+
+
+
+/* process /*
+
+/* Process */
+
+#process {
+	width: 100%;
+	height: 750px;
+	background: #fff;
+	padding-top: 60px;
+}
+#process h3 {
+	text-align: center;
+	color: #313131;
+	margin-bottom: 78px;
+}
+
+.process {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.process-box {
+	height: 407px;
+	width: 345px;
+	position: relative;
+}
+
+.line2{
+  content: "";
+  background: url(../img/line.svg);
+  height: 5px;
+  width: 290px;
+  top: 30px;
+  left: 227px;
+  position: absolute;
+}
+
+
+.process-number {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 58px;
+	width: 58px;
+	margin: 0 auto;
+	border-radius: 100%;
+	background-color: #4A998C;
+	color: #FFFFFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 1.6px;
+	line-height: 46px;
+	margin-bottom: 29px;
+}
+
+
+
+.process-item {
+	height: 320px;
+	width: 345px;
+	border-radius: 19px;
+	background-color: #F5F5F5;
+	padding: 34px 47px 49px 47px;
+}
+.process-item:hover {
+	border-radius: 19px;
+	background-color: #FFFFFF;
+	box-shadow: 0 2px 14px 0 rgba(0,0,0,0.11);
+}
+
+.process-item h5 {
+	color: #313131;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 29px;
+	margin-bottom: 31px;
+	text-align: center;
+}
+
+.process-item li {
+	color: #313131;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	letter-spacing: 0.6px;
+	line-height: 17px;
+	margin-bottom: 22px;
+}
+
+
+/* Cases */
+
+
+#cases h3 {
+	color: #313131;
+	text-align: center;
+	margin-bottom: 59px;
+}
+
+#works {
+	width: 100%;
+	height: 1100px;
+}
+
+.works {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+
+.pic{width:33.33%;
+	max-height:400px;
+	position:relative;
+	overflow:hidden;
+	-webkit-animation:anima 2s;
+	-moz-animation:anima 2s;
+	-o-animation:anima 2s;
+	-ms-animation:anima 2s;
+	animation:anima 2s;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	backface-visibility:hidden}
+
+
+
+
+	.pic-3d{-webkit-perspective:500;
+		-moz-perspective:500;
+	-o-perspective:500;
+	-ms-perspective:500;
+	perspective:500;
+	-webkit-transform-style:preserve-3d;
+	-moz-transform-style:preserve-3d;
+	-o-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d}
+	.pic-caption{cursor:default;position:absolute;
+		width:100%;height:100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		color: #fff;
+		background:rgba(44,62,80,0.92);
+		padding:10px;text-align:center;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=($opacity * 100))";
+		filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity:0;opacity:0
+	}
+	
+.works p{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* Panel */
+
+
+.cd-main-content {
+  text-align: center;
+}
+
+.cd-main-content h1 {
+  font-size: 2rem;
+  color: #64788c;
+  padding: 4em 0;
+}
+
+.hire {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 155px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  line-height: 24px;
+  margin-left: 33px;
+  position: relative;
+  background: #125E4F;
+  color: #ffffff;
+  border-radius: 40px;
+
+  -webkit-transition: -webkit-box-shadow 0.2s;
+  transition: -webkit-box-shadow 0.2s;
+  transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
+}
+
+
+.cd-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+  -webkit-transition: visibility 0s 0.6s;
+  transition: visibility 0s 0.6s;
+}
+
+.cd-panel::after {
+  /* overlay layer */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  cursor: pointer;
+  -webkit-transition: background 0.3s 0.3s;
+  transition: background 0.3s 0.3s;
+}
+
+.cd-panel.cd-panel--is-visible {
+  visibility: visible;
+  -webkit-transition: visibility 0s 0s;
+  transition: visibility 0s 0s;
+  z-index: 9999;
+}
+
+.cd-panel.cd-panel--is-visible::after {
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transition: background 0.3s 0s;
+  transition: background 0.3s 0s;
+}
+
+
+
+.cd-panel__close {
+  position: absolute;
+  top: 75px;
+  right: 415px;
+  height: 32px;
+  width: 32px;
+  background: url(../img/close.svg) no-repeat;
+}
+
+
+
+
+.cd-panel__container {
+  position: fixed;
+  height: 100vh;
+  width: 943px;
+  top: 0;
+  padding: 101px 95px 121px 95px;
+  background: #4A998C;
+  z-index: 9999;
+  opacity: 0.9;
+  -webkit-transition: -webkit-transform 0.3s 0.3s;
+  transition: -webkit-transform 0.3s 0.3s;
+  transition: transform 0.3s 0.3s;
+  transition: transform 0.3s 0.3s, -webkit-transform 0.3s 0.3s;
+}
+
+.cd-panel--from-right .cd-panel__container {
+  right: 0;
+  -webkit-transform: translate3d(100%, 0, 0);
+          transform: translate3d(100%, 0, 0);
+}
+
+.cd-panel--from-left .cd-panel__container {
+  left: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+}
+
+.cd-panel--is-visible .cd-panel__container {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+
+.hire  img {
+	margin-left: 10px;
+}
+
+
+.hireForm {
+	width: 435px;
+}
+
+.hireForm h2 {
+	color: #FFFFFF;
+	font-family: Ubuntu;
+	font-size: 60px;
+	font-weight: bold;
+	letter-spacing: 2.4px;
+	line-height: 69px;
+	margin-bottom: 45px;
+}
+
+
+.hireForm input {
+	width: 435px;
+	background: transparent;
+	border: 0;
+	outline: none;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #fff;
+	opacity: 0.5;
+	color: #fff;
+	font-family: Ubuntu;
+	font-size: 15px;
+	letter-spacing: 0.6px;
+	line-height: 17px;
+	margin-bottom: 69px;
+}
+
+.hireForm input::-webkit-input-placeholder {color:#fff;}
+.hireForm input::-moz-placeholder {color:#fff;}
+.hireForm input:-moz-placeholder {color:#fff;}
+.hireForm input:-ms-input-placeholder {color:#fff;}
+
+.hireForm input:focus {
+	color: #fff;
+	opacity: 1;
+}
+
+.hireForm button {
+	height: 80px;
+	width: 350px;
+	border-radius: 40px;
+	background: linear-gradient(235.93deg, #F9B400 0%, #FFE807 100%);
+	box-shadow: 0 2px 19px 0 rgba(0,0,0,0.21);
+	color: #313131;
+	font-family: Ubuntu;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 29px;
+	outline: none;
+	border: none;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.hireForm  span {
+	width: 157px;
+	color: #FFFFFF;
+	font-family: Ubuntu;
+	font-size: 10px;
+	letter-spacing: 0.4px;
+	line-height: 11px;
+	margin:  0 auto;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer {
+	padding-top: 138px;
+	width: 100%;
+	height: 370px;
+	background: #2D2D2D;
+}
+
+
+footer .footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 82px;
+}
+
+footer .footer .links {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+footer .footer .links a {
+	color: #FFFFFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	letter-spacing: 0.6px;
+	line-height: 16px;
+	margin-bottom: 19px;
+}
+
+footer .footer .tel {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+footer .footer .tel a {
+	color: #4A998C;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	letter-spacing: 0.6px;
+	line-height: 16px;
+	margin-bottom: 19px;
+}
+
+.copy {
+	color: #FFFFFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	letter-spacing: 0.6px;
+	line-height: 17px;
+	text-align: center;
+	display: block;
+}
+
+
+/* MEDIA */
+
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 100%;
+	}
+	.line2 {
+		display: none;
+	}
+	#process {
+		height: auto;
+		margin-bottom: 40px;
+	}
+	.process {
+		justify-content: space-around;
+	}
+	#expertise {
+		height: auto;
+		padding-bottom: 40px;
+	}
+
+	.expertiseBlock {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.drop-btn {
+		margin: 0 auto;
+	}
+	.mainInfo {
+		flex-wrap: nowrap;
+		padding: 0 10px;
+		align-items: flex-end;
+		justify-content: space-around;
+	}
+	.questions-form .ceo .ceo-text {
+		right: 45px;
+	}
+	.phone img {
+		width: 90%;
+	}
+
+	.arr img {
+		width: 70%;
+	}
+	.form form button, .questions-form form button {
+		left: 20%;
+		width: 305px;
+	}
+	footer .footer {
+		justify-content: space-around;
+	}
+	.ux-block {
+		width: 100%;
+		justify-content: center;
+	}
+	#drop,
+	#markup,
+	#development,
+	#process,
+	#expertise ,
+	#ux,
+	#ui {
+		height: auto;
+		padding-bottom: 40px;
+	}
+	.form form, .questions-form form {
+		width: 45%;
+	}
+	.willGet {
+		width: 45%;
+	}
+	.technologies {
+		justify-content: space-around;
+	}
+}
+
+
+
+@media screen and (max-width: 992px) {
+	.expertiseBlock {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.process-box {
+		margin-bottom: 20px;
+	}
+	.line2 {
+		display: none;
+	}
+	.process {
+		justify-content: space-around;
+	}
+	#drop,
+	#markup,
+	#development,
+	#process,
+	#expertise ,
+	#ux,
+	#ui {
+		height: auto;
+		padding-bottom: 40px;
+	}
+	#contact {
+		height: 672px;
+	}
+	.ux-block,
+	.ui-block {
+		width: 100%;
+		justify-content: center;
+	}
+	.technologies {
+		justify-content: center;
+	}
+	.contact-form form {
+		width: 50%;
+
+	}
+	.contact-form form button {
+		width: 300px;
+		left: 49px;
+	}
+	#contact h3 {
+		font-size: 40px;
+		text-align: center;
+		margin-bottom: 0;
+	}
+	#contact p {
+		font-size: 16px;
+		text-align: center;
+	}
+	.contact-form .ceo .ceo-text {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    }
+    .contact-form .ceo .ceo-text h6 {
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 29px;
+    margin-bottom: 14px;
+    }
+    .contact-form .ceo .ceo-text span {
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    line-height: 17px;
+	}
+	.form form, .questions-form form {
+		width: 45%;
+	}
+	.willGet {
+		width: 45%;
+	}
+	.form form button {
+		left: 21px;
+    	width: 305px;
+	}
+	.arr img {
+    width: 70%;
+	}
+	.willGet li span {
+		font-size: 16px;
+	}
+	.willGet h5 {
+    font-size: 45px;
+	}
+
+	}
+	footer .footer {
+		justify-content: space-around;
+	}
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+	header {
+		justify-content: space-around;
+	}
+	.expertiseBlock {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.process-box {
+		margin-bottom: 20px;
+	}
+	.line2 {
+		display: none;
+	}
+	.process {
+		justify-content: space-around;
+	}
+	#drop,
+	#markup,
+	#development,
+	#process,
+	#expertise ,
+	#ux,
+	#ui {
+		height: auto;
+		padding-bottom: 40px;
+	}
+	#contact {
+		height: 672px;
+	}
+	.ux-block,
+	.ui-block {
+		width: 100%;
+		justify-content: center;
+	}
+	.technologies {
+		justify-content: center;
+	}
+	.contact-form form {
+		width: 50%;
+
+	}
+	.contact-form form button {
+		width: 300px;
+		left: 49px;
+	}
+	#contact h3 {
+		font-size: 40px;
+		text-align: center;
+		margin-bottom: 0;
+	}
+	#contact p {
+		font-size: 16px;
+		text-align: center;
+	}
+	.contact-form .ceo .ceo-text {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    }
+    .contact-form .ceo .ceo-text h6 {
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 29px;
+    margin-bottom: 14px;
+    }
+    .contact-form .ceo .ceo-text span {
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    line-height: 17px;
+	}
+	.form form, .questions-form form {
+		width: 40%;
+	}
+	.willGet {
+		width: 40%;
+	}
+	.form form button {
+		left: 21px;
+    	width: 305px;
+	}
+	.arr img {
+    width: 70%;
+	}
+	.willGet li span {
+		font-size: 16px;
+	}
+	.willGet h5 {
+    font-size: 45px;
+	}
+	.pic {
+		width: 50% !important;
+	}
+
+	footer .footer {
+		justify-content: space-around;
+	}
+
+}
+
+@media screen and (max-width: 450px)  {
+	h1 {
+		font-size: 45px;
+		line-height: 45px;
+		margin-bottom: 20px;
+	}
+	h3 {
+		font-size: 40px;
+		line-height: 45px;
+		text-align: center;
+	}
+	.container {
+		width: 100%;
+	}
+	header {
+		justify-content: center;
+		margin-bottom: 50px;
+	}
+	#home {
+		height: auto;
+		padding-bottom: 40px;
+	}
+	.logo {
+		margin-bottom: 10px;
+	}
+	.hire {
+		display: none;
+	}
+
+	#home p {
+		font-size: 15px;
+		margin-bottom: 30px;
+	}
+	.services {
+	    width: 250px;
+	    flex-wrap: wrap;
+	    justify-content: space-around;
+	    margin-bottom: 30px;
+	}
+	.arrrs {
+		display: none;
+	}
+	.img {
+		width: 100%;
+		background: url(../img/img_go.png)center;
+		background-size: cover;
+ 	}
+
+	.services-item {
+		margin-right: 0;
+		width: 85px;
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.services-item span {
+		font-size: 14px;
+	}
+
+	#expertise {
+		padding-top: 50px;
+		height: auto;
+		padding-bottom: 20px;
+	}
+
+	.amountBlock {
+		justify-content: center;
+	}
+	.amount {
+		margin-right: 0;
+	}
+	#expertise h3 {
+		margin-bottom: 30px;
+	}
+
+	#contact {
+		padding-top: 50px;
+		height: auto;
+	}
+	.contact-form form {
+		width: 100%;
+		margin-bottom: 150px;
+	}
+	.form form {
+		width: 100%;
+	}
+	.contact-form form button {
+    position: absolute;
+    left: 40px;
+    height: 80px;
+    width: 294px;
+    border-radius: 40px;
+    background: linear-gradient(235.93deg, #F9B400 0%, #FFE807 100%);
+    box-shadow: 0 2px 19px 0 rgba(0,0,0,0.21);
+	}
+
+	#contact p {
+		font-size: 16px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.contact-form .ceo .ceo-text h6 {
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 29px;
+    margin-bottom: 14px;
+	}
+	.contact-form .ceo {
+		bottom: -4px;
+	}
+	.contact-form .ceo .ceo-text span {
+	    color: #FFFFFF;
+	    font-family: Ubuntu;
+	    font-size: 15px;
+	    letter-spacing: 0.6px;
+	    line-height: 17px;
+	}
+
+	.contact-form .ceo .ceo-text {
+	    position: absolute;
+	    bottom: 20px;
+	    right: 50px;
+	}
+	.ceo img {
+    width: 100%;
+	}
+	.features {
+		width: 100%;
+	}
+	#ui {
+		padding-top: 50px;
+		height: auto;
+	}
+	.ui-block {
+		padding: 0 20px;
+	}
+	.ui-text a {
+		width: 350px;
+		height: 80px;
+	}
+	.ui-text h3 {
+		margin-bottom: 25px;
+	}
+	.ui-text p {
+		font-size: 16px;
+		line-height: 25px;
+		margin-bottom: 50px;
+	}
+	.ui-text {
+		width: 100%;
+	}
+	#ux{
+		padding-top: 50px;
+		height: auto;
+	}
+	.ux-text h3 {
+		margin-bottom: 30px;
+	}
+	.ux-text p {
+		margin-bottom: 50px;
+	}
+	.ux-features {
+		width: 100%;
+	}
+
+
+
+	.ux-text a {
+		width: 350px;
+		height: 80px;
+		margin: 0 auto;
+	}
+	.ux-block {
+		width: 100%;
+	}
+	#markup {
+		padding-top: 50px;
+		height: auto;
+	}
+	#process {
+		height: auto;
+	}
+	.process {
+		justify-content: center;
+	}
+	.line2 {
+		display: none;
+	}
+	.process-box {
+		margin-bottom: 20px;
+	}
+	.ux-text {
+		width: 100%;
+		padding: 0 20px;
+	}
+	#development {
+		height: auto;
+	}
+
+	#drop {
+		height: auto;
+		padding-bottom: 40px;
+	}
+
+	.willGet {
+	    width: 100%;
+	    border: 0;
+	}
+	#drop h3 {
+		margin-bottom: 0;
+		text-align: center;
+	}
+	#drop {
+		padding-top: 30px;
+	}
+	#drop p {
+    	text-align: center;
+	}
+	.arr {
+    height: 74px;
+    margin-top: 69px;
+    transform: rotate(90deg);
+    justify-content: center;
+	}
+	.form {
+		justify-content: center;
+	}
+
+	.form form button,
+	.questions-form form button {
+		position: absolute;
+	    left: 40px;
+	    height: 80px;
+	    width: 294px;
+	    border-radius: 40px;
+	    background: linear-gradient(235.93deg, #F9B400 0%, #FFE807 100%);
+	    box-shadow: 0 2px 19px 0 rgba(0,0,0,0.21);
+	}
+
+
+	.pic {
+		width: 100%;
+	}
+
+
+	footer {
+		padding-top: 50px;
+		height: auto;
+		text-align: center;
+		padding-bottom: 25px;
+	}
+	footer .footer {
+		flex-direction: column;
+		margin-bottom: 25px;
+		padding-bottom: 25px;
+	}
+
+	footer .footer .links {
+		order: 2;
+	}
+}
+
+
+@media screen and (max-width: 320px) {
+	.getFree a {
+    height: 80px;
+    width: 264px;
+    border-radius: 40px;
+    background: linear-gradient(235.93deg, #F9B400 0%, #FFE807 100%);
+    box-shadow: 0 2px 19px 0 rgba(255,255,255,0.4);
+    color: #313131;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+	}
+	.contact-form form button {
+	    position: absolute;
+	    left: 15px;
+	    height: 80px;
+	    width: 294px;
+	    border-radius: 40px;
+	    background: linear-gradient(235.93deg, #F9B400 0%, #FFE807 100%);
+	    box-shadow: 0 2px 19px 0 rgba(0,0,0,0.21);
+   }
+   .process-item {
+    width: 100%;
+	}
+
+	.form form button {
+    position: absolute;
+    left: 15px;
+    height: 80px;
+    width: 294px;
+    border-radius: 40px;
+    background: linear-gradient(235.93deg, #F9B400 0%, #FFE807 100%);
+    box-shadow: 0 2px 19px 0 rgba(0,0,0,0.21);
+	}
+	.ui-text p {
+		font-size: 14px;
+	}
+	.ui-text a,
+	.ux-text a {
+		width: 294px;
+		height: 80px;
+		font-size: 20px;
+	}
+	.pic {
+		width: 100%;
+	}
+}
